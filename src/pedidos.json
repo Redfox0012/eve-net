@@ -1,0 +1,25 @@
+[
+    {
+        "hash": "45b359c945f68dcf479ee6964da50db8",
+        "nomeCliente": "Gabriel Henrique da Silva",
+        "cpf": "111.111.111-11",
+        "email": "gabriel@gmail.com",
+        "numero": "(35) 9 9800-0000", 
+        "provedora": "viasat",
+        "planoId": "1",
+        "status": "em espera",
+        "endereco": {
+            "rua": "Dona Clelia Sodre Capistrano",
+            "numero": "336",
+            "complemento": "ap 12",
+            "bairro": "Morada do Sol",
+            "cidade": "Santa Rita do Sapucai"
+        },
+        "dadosBancarios": {
+            "numeroCartao": "1234 1234 1234 1234",
+            "CVV": "123",
+            "validade": "julho/2028"
+        }
+    }
+]
+  

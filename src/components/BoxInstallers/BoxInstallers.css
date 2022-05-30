@@ -1,0 +1,98 @@
+.BoxInstallers{
+    display:flex;
+    width:100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 25%;
+}
+
+.bi-my_link {
+    width: calc(80% - 30px);
+    height: calc(90% - 30px);
+    background-color: rgba(0,0,0,0.9);
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    padding: 15px 15px;
+    flex-direction: column;
+}
+
+.bi-my_link hr {
+    width:100%;
+}
+
+.bi-container {
+    width:100%;
+    height:100%;
+}
+.bi-info-space {
+    font-size:20px;
+    height:100%;
+    width:100%;
+}
+.bi-info-area {
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.bi-info-area-photo{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    margin: 10px;
+}
+
+.bi-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+    border: 2px solid white;
+    background-color: orange;
+}
+
+.bi-info {
+    margin-left: 10px;
+}
+
+.bi-btn-contratar {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    max-width: 300px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #2ea0d6;
+    border: 1px solid #083674;
+    -webkit-box-shadow: 0px 0px 15px 5px #083674; 
+    box-shadow: 0px 0px 15px 5px #083674;
+    text-align: center;
+}
+
+.bi-btn-contratar:hover {
+    width:100%;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #083674;
+    border: none;
+    -webkit-box-reflect: below 5px linear-gradient(transparent, #0004);
+    -webkit-box-shadow: 0px 0px 15px 5px #083674; 
+    box-shadow: 0px 0px 15px 5px #083674;
+}
+
+.BoxInstallers footer {
+    width: 100%;
+}
+
+.BoxInstallers header {
+    font-size:18px;
+}

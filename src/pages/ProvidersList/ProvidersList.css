@@ -1,0 +1,131 @@
+.ProvidersList {
+    width: 100vw;
+    height: 100vh;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    color:white;
+    text-transform:uppercase;
+}
+
+.pl-title {
+    text-align:center;
+    font-size: 22px;
+}
+
+.pl-skew{
+    display:flex;
+    width: 100%;
+    height: 50vh;
+    border-radius: 0px 0px 0px 60px;
+    margin-top:calc(-250px);
+	background: rgba(0,0,0, 0.90);
+	display:inline-block;
+	-ms-transform: skewY(3deg);
+	-webkit-transform: skewY(3deg);
+	transform: skewY(3deg);
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.pl-skew>div {
+	padding: 0px 5px;
+    margin-top: 275px;
+	font: 20px;
+	-ms-transform: skewY(-3deg);
+	-webkit-transform: skewY(-3deg);
+	transform: skewY(-3deg);
+}
+
+.pl-container {
+    background-color: rgba(255,255,255,0.3);
+    padding: 15px;
+    border-radius: 25px;
+    width:85%;
+    margin: auto;
+    height: 65%;
+}
+
+.pl-container-interna {
+    height:100%;
+    overflow-y: auto;
+}
+
+/* width */
+.pl-container-interna::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+.pl-container-interna::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.7);
+    border-radius:10px;
+  }
+  
+  /* Handle */
+.pl-container-interna::-webkit-scrollbar-thumb {
+    background: #181f23;
+    border-radius:10px;
+  }
+  
+  /* Handle on hover */
+.pl-container-interna::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.pl-my_button {
+    width:45vw;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #2ea0d6;
+    border: 1px solid #083674;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    -webkit-box-shadow: 0px 0px 15px 5px #083674; 
+    box-shadow: 0px 0px 15px 5px #083674;
+}
+.pl-my_button:hover {
+    width:45vw;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #083674;
+    border: none;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    -webkit-box-shadow: 0px 0px 15px 5px #083674; 
+    box-shadow: 0px 0px 15px 5px #083674;
+}
+.pl-my_link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    
+}
+
+
+.pl-row {
+    display:flex;
+    width:100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.pl-dropdown {
+    width:80%;
+    height:40px;
+    background: #181f23;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    color:white;
+    margin-right:10px;
+}
+
+.lp-search {
+    background-color: #181f23;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.lp-search img {
+    width:90%;
+}

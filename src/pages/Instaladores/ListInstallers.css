@@ -1,0 +1,96 @@
+.Installers {
+    width: 100vw;
+    height: 100vh;
+    color:white;
+    text-transform:uppercase;
+    overflow-y: hidden;
+    overflow-x:hidden;
+}
+
+.ins-skew{
+    display:flex;
+    width: 100%;
+    height: 50vh;
+    border-radius: 0px 0px 60px 0px;
+    margin-top:calc(-250px);
+	background: rgba(0,0,0, 0.9);
+	display:inline-block;
+	-ms-transform: skewY(-3deg);
+	-webkit-transform: skewY(-3deg);
+	transform: skewY(-3deg);
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.ins-skew>div {
+    display:flex;
+	padding: 0px 5px;
+    margin-top: 265px;
+	font: 20px;
+	-ms-transform: skewY(3deg);
+	-webkit-transform: skewY(3deg);
+	transform: skewY(3deg);
+    justify-content:center;
+}
+.ins-skew button {
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 80px;
+    background-color: #2ea0d6;
+    border: 1px solid #083674;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    -webkit-box-shadow: 0px 0px 15px 5px #083674; 
+    box-shadow: 0px 0px 15px 5px #083674;
+}
+
+.ins-skew button:hover {
+    background-color: #083674;
+}
+
+button img{
+    width: 100%;
+}
+
+.btn-back {
+    transform: rotate(180deg);
+}
+
+.ins-title {
+    width:80%;
+    display:flex;
+    justify-content:center;
+}
+
+
+.ins-container {
+    width:100%;
+    height:calc(100% - 90px);
+}
+
+.ins-container-interna {
+    height:98%;
+    overflow-y: auto;
+}
+
+/* width */
+.ins-container-interna::-webkit-scrollbar {
+    width: 10px;
+    height: 100px;
+}
+  
+  /* Track */
+.ins-container-interna::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.7);
+    border-radius:10px;
+}
+  
+  /* Handle */
+.ins-container-interna::-webkit-scrollbar-thumb {
+    background: #000E;
+    border-radius:10px;
+}
+  
+  /* Handle on hover */
+.ins-container-interna::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

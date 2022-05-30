@@ -1,0 +1,98 @@
+.Login {
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items:center;
+}
+
+.login-container {
+    display:flex;
+    flex-direction: column;
+    width: 90vw;
+    min-width: 250px;
+    max-width: 500px;
+    height: 50%;
+    min-height: 300px;
+    background: rgba(0,0,0,0.85);
+    border-radius: 48px;
+    color: white;
+}
+
+.header-login {
+    display:flex;
+    align-container:center;
+}
+.Login button {
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 80px;
+    background-color: #2ea0d6;
+    border: 1px solid #083674;
+    -webkit-box-shadow: 0px 0px 15px 5px #083674; 
+    box-shadow: 0px 0px 15px 5px #083674;
+    margin:auto;
+    margin-top: 12px;
+}
+.Login button img{
+    width: 100%;
+}
+.back-area {
+    display: flex;
+    justify-container: center;
+    align-items: center;
+    width:150px;
+    height:100%;
+}
+
+.btn-back {
+    transform: rotate(180deg);
+}
+.Login  h1 {
+    margin:15px auto;
+    width: 100%;
+    text-align: center;
+}
+.Login fieldset {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 100%;
+    border: none;
+    background-color: rgba(255,0,0,0);
+
+}
+
+.options {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius:15px;
+    margin: 10px 10px 0px 10px;
+    font-size: 12px;
+}
+
+.login-btn {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:50%;
+    height: 40px;
+    border-radius: 60px;
+    background-color: #2ea0d6;
+    border: 1px solid #083674;
+    -webkit-box-shadow: 0px 0px 15px 5px #083674; 
+    box-shadow: 0px 0px 15px 5px #083674;
+    margin:20px auto;
+    margin-top:10px;
+    min-width: 115px;
+}
+
+.login-btn:hover {
+    background-color: #083674;
+    -webkit-box-reflect: below 5px linear-gradient(transparent, #0004);
+    -webkit-box-shadow: 0px 0px 15px 5px #083674; 
+}

@@ -1,0 +1,70 @@
+.BoxPlan{
+    display:flex;
+    width:100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 25%;
+}
+
+.boxplan-my_link {
+    width: calc(80% - 30px);
+    height: calc(90% - 30px);
+    background-color: rgba(0,0,0,0.9);
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    padding: 15px 15px;
+    flex-direction: column;
+}
+.boxplan-my_link hr {
+    width:100%;
+}
+
+.bp-container {
+    width:100%;
+    height:100%;
+}
+.bp-info-space {
+    height:100%;
+}
+.bp-info-area {
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.bp-info {
+    margin-left: 10px;
+}
+
+.bp-btn-contratar {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:45vw;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #2ea0d6;
+    border: 1px solid #083674;
+    -webkit-box-shadow: 0px 0px 15px 5px #083674; 
+    box-shadow: 0px 0px 15px 5px #083674;
+}
+
+.bp-btn-contratar:hover {
+    width:45vw;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #083674;
+    border: none;
+    -webkit-box-reflect: below 5px linear-gradient(transparent, #0004);
+    -webkit-box-shadow: 0px 0px 15px 5px #083674; 
+    box-shadow: 0px 0px 15px 5px #083674;
+}

@@ -1,0 +1,136 @@
+.HomeInterno {
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.HomeInterno header{
+    color: white;
+    height: 120px;
+    width: 100%;
+    background-color: #000D;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.HomeInterno section {
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    margin:auto;
+    color: white;
+}
+
+.HomeInterno footer {
+    height: 100px;
+    width: 100%;
+    background-color: #00FA;
+}
+.HomeInterno .row{
+    display:flex;
+}
+.HomeInterno .col{
+    display:flex;
+    flex-direction: column;
+}
+.HomeInterno header .row{
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.HomeInterno h1 {
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.HomeInterno header h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.HomeInterno .photo{
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+    border: 2px solid white;
+    background-color: orange;
+}
+
+.HomeInterno .hi-icon {
+    margin-left:5px;
+    height: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.HomeInterno .hi-area-nav {
+    display:flex;
+    justify-content:center;
+    align-items: end;
+    margin-left: 20px;
+    width:100%;
+    height:100%;
+
+}
+
+.HomeInterno .full-h {
+    height:100%
+}
+
+.HomeInterno .full-w {
+    width:100%
+}
+
+
+.dados-gerais {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box; 
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height: 200px;
+    background-color: #000C;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+    padding:10px;
+}
+.HomeInterno h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.HomeInterno h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.HomeInterno hr {
+    width: 100%
+}
+
+.hi-info-area {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pedidos-em-andamento {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box; 
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+    background-color: #000C;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:10px;
+}
